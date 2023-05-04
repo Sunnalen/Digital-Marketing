@@ -1,0 +1,23 @@
+{
+  "name": "digital-marketing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sunnalen/Digital-Marketing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sunnalen/Digital-Marketing/issues"
+  },
+  "homepage": "https://github.com/Sunnalen/Digital-Marketing#readme",
+  "dependencies": {
+    "sass": "^1.62.1"
+  }
+}
