@@ -1,0 +1,13 @@
+@import "varibles";
+
+.background{
+  position: absolute;
+  width: 100vw;
+  height: 90vh;
+  
+  background: url("~img/intro/background.png");
+  background-size: cover;
+  background-position: 0 85%;
+  
+  z-index: -1;
+}

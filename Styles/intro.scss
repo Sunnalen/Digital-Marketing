@@ -1,0 +1,99 @@
+@import "varibles";
+
+.intro{
+  position: relative;
+  
+  &__inner {
+    margin-top: 105px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__info, .subtitle, .title {
+    margin-bottom: 30px;
+    color: white;
+  }
+  .subtitle {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+    font-size: 36px;
+
+    &::before, &::after {
+      position: relative;
+      content: '';
+      display: block;
+      width: 60px;
+      height: 1px;
+      background-color: $color-green;
+      top: 25px
+    }
+  
+    &::before {
+      left: 200px;
+    }
+  
+    &::after {
+      right: 200px;
+    }
+  }
+  
+
+  .title {
+    font-size: $text-title;
+  }
+
+  span::after {
+    position: relative;
+    background: url("~img/intro/Wave.svg");
+    content: "";
+    display: block;
+    width: 450px;
+    height: 10px;
+    left: 315px;
+  }
+
+  &__info {
+    margin-bottom: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: $text-regular;
+  }
+
+  &__button {
+    padding: 20px 50px;
+
+    color: white;
+    border-radius: 25px;
+    background: $color-light-green;
+    border: 1px white solid
+  }
+}
+
+.partner {
+  position: relative;
+  margin-top: 517px;
+  
+  height: 140px;
+  
+  background-color: rgba(246, 251, 249, 1);
+
+  &__items {
+    position: relative;
+    top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  
+}
+

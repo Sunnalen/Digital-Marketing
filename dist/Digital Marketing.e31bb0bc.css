@@ -1,2 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+}
+
+/*Colors*/
+/*Text styles*/
+/*Colors*/
+/*Text styles*/
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 15px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  padding: 40px 0 0 0;
+}
+
+.logo {
+  padding: 0 300px 0 0;
+}
+
+.nav {
+  width: 100%;
+}
+.nav__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav a {
+  color: white;
+}
+.nav__button {
+  margin-left: 200px;
+  padding: 10px 20px;
+  color: white;
+  border: 1px solid rgba(237, 255, 129, 0.4);
+  border-radius: 25px;
+  background: rgb(57, 92, 77);
+  cursor: pointer;
+}
+
+/*Colors*/
+/*Text styles*/
+.intro {
+  position: relative;
+}
+.intro__inner {
+  margin-top: 105px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.intro__info, .intro .subtitle, .intro .title {
+  margin-bottom: 30px;
+  color: white;
+}
+.intro .subtitle {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  font-size: 36px;
+}
+.intro .subtitle::before, .intro .subtitle::after {
+  position: relative;
+  content: "";
+  display: block;
+  width: 60px;
+  height: 1px;
+  background-color: rgba(237, 255, 129, 0.4);
+  top: 25px;
+}
+.intro .subtitle::before {
+  left: 200px;
+}
+.intro .subtitle::after {
+  right: 200px;
+}
+.intro .title {
+  font-size: 90px;
+}
+.intro span::after {
+  position: relative;
+  background: url("/Wave.c64be72d.svg");
+  content: "";
+  display: block;
+  width: 450px;
+  height: 10px;
+  left: 315px;
+}
+.intro__info {
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+}
+.intro__button {
+  padding: 20px 50px;
+  color: white;
+  border-radius: 25px;
+  background: rgb(152, 170, 40);
+  border: 1px white solid;
+}
+
+.partner {
+  position: relative;
+  margin-top: 517px;
+  height: 140px;
+  background-color: rgb(246, 251, 249);
+}
+.partner__items {
+  position: relative;
+  top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*Colors*/
+/*Text styles*/
+.background {
+  position: absolute;
+  width: 100vw;
+  height: 90vh;
+  background: url("/background.41f2ab2e.png");
+  background-size: cover;
+  background-position: 0 85%;
+  z-index: -1;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
 
 /*# sourceMappingURL=/Digital%20Marketing.e31bb0bc.css.map */
