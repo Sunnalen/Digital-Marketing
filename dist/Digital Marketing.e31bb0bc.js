@@ -172,7 +172,7 @@ module.exports = reloadCSS;
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"C:\\Users\\sunna\\OneDrive\\Desktop\\Digital Marketing\\img\\intro\\Wave.svg":[["Wave.c64be72d.svg","img/intro/Wave.svg"],"img/intro/Wave.svg"],"C:\\Users\\sunna\\OneDrive\\Desktop\\Digital Marketing\\img\\intro\\background.png":[["background.41f2ab2e.png","img/intro/background.png"],"img/intro/background.png"],"_css_loader":"../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
+},{"C:\\Users\\sunna\\OneDrive\\Desktop\\Digital Marketing\\img\\intro\\Wave.svg":[["Wave.c64be72d.svg","img/intro/Wave.svg"],"img/intro/Wave.svg"],"C:\\Users\\sunna\\OneDrive\\Desktop\\Digital Marketing\\img\\intro\\background.png":[["background.41f2ab2e.png","img/intro/background.png"],"img/intro/background.png"],"C:\\Users\\sunna\\OneDrive\\Desktop\\Digital Marketing\\img\\process\\update.png":[["update.078dfdb3.png","img/process/update.png"],"img/process/update.png"],"C:\\Users\\sunna\\OneDrive\\Desktop\\Digital Marketing\\img\\process\\dotted.png":[["dotted.d09e7a73.png","img/process/dotted.png"],"img/process/dotted.png"],"C:\\Users\\sunna\\OneDrive\\Desktop\\Digital Marketing\\img\\article\\eyes.svg":[["eyes.025f9440.svg","img/article/eyes.svg"],"img/article/eyes.svg"],"C:\\Users\\sunna\\OneDrive\\Desktop\\Digital Marketing\\img\\offer\\back.jpg":[["back.9b923949.jpg","img/offer/back.jpg"],"img/offer/back.jpg"],"C:\\Users\\sunna\\OneDrive\\Desktop\\Digital Marketing\\img\\footer\\footer__vektor.png":[["footer__vektor.665e600f.png","img/footer/footer__vektor.png"],"img/footer/footer__vektor.png"],"_css_loader":"../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 require("./Styles/style.scss");
@@ -201,7 +201,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62928" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53651" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

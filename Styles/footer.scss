@@ -1,0 +1,57 @@
+@import "variables";
+
+.footer {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    margin-bottom: 30px;
+  }
+
+  &__text {
+    margin-bottom: 30px;
+    color: $color-grey;
+  }
+
+  &__link-item:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  &__items {
+    margin-bottom: 60px;
+
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item-title {
+    margin-bottom: 30px;
+  }
+
+  &__item-text {
+    color: $color-grey;
+    line-height: 40px
+  }
+
+  &__vektor {
+    background: url("~img/footer/footer__vektor.png");
+    width: 1170px;
+    height: 1px;
+  }
+
+  &__copyright {
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+    display: flex;
+    justify-content: center;
+    color: $color-grey;
+
+    &-img {
+      margin-right: 5px;
+    }
+  }
+}

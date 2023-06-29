@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "parcel index.html",
     "build": "parcel build index.html"
-},
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Sunnalen/Digital-Marketing.git"
@@ -19,5 +19,9 @@
   "homepage": "https://github.com/Sunnalen/Digital-Marketing#readme",
   "dependencies": {
     "sass": "^1.62.1"
+  },
+  "devDependencies": {
+    "cssnano": "^6.0.1",
+    "postcss": "^8.4.24"
   }
 }

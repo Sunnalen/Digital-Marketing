@@ -1,0 +1,62 @@
+@import "variables";
+.information {
+  &__inner {
+    margin-top: 100px;
+    
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__main-title {
+    margin-bottom: 30px;
+  }
+
+  &__main-text {
+    margin-bottom: 40px;
+    font-size: $text-regular;
+    color: $color-grey;
+  }
+
+  &__link {
+    font-size: $text-medium;
+    color: $color-light-green;
+    text-decoration: underline;
+  }
+
+  &__link-img {
+    position: relative;
+    left: 80px;
+    bottom: 20px;
+  }
+}
+
+
+
+
+.content {
+  display: flex;
+
+
+  &__strategy__creation, &__devolopment__optimization:not(:last-child) {
+    margin-right: 100px;
+    
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.strategy, .development {
+  margin-bottom: 80px;
+}
+
+.img__strategy, .img__development, .img__creation, .img__optimization {
+  margin-bottom: 40px;
+}
+
+.strategy__title, .development__title, .creation__title, .optimization__title {
+  margin-bottom: 25px;
+}
+
+.strategy__text, .development__text, .creation__text, .optimization__text {
+  color: $color-grey;
+}

@@ -1,10 +1,148 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
 @import "resets";
-@import "varibles";
+@import "variables";
 @import "header";
 @import "intro";
 @import "background";
+@import "partner";
+@import "information";
+@import "service";
+@import "process";
+@import "article";
+@import "offer";
+@import "footer";
 
 body {
   font-family: 'Rubik', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  width: 100%;
+  padding: 0 15px;
+}
+
+li {
+  list-style-type: none;
+ }
+
+ h2 {
+  font-size: $text-big;
+ }
+ 
+ h3 {
+  font-size: $text-regular;
+}
+
+.under__title {
+  font-size: $text-regular;
+}
+
+p {
+  font-size: $text-medium;
+}
+ 
+@media (max-width: 1280px) {
+  
+  .process__steps {
+    width: 100%;
+    margin-left: -200px;
+  }
+
+  hr{
+    margin-left: 25px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__inner {
+    display: block;
+  }
+
+  .nav__button {
+    margin-left: 0;
+  }
+
+  .intro__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .title {
+    text-align: center;
+  }
+
+  .intro span::after {
+    left: 150px;
+  }
+  
+  .partner {
+    margin-top: 315px;
+  }
+
+  .information__inner, .service__inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .content {
+    margin-left: 100px;
+  }
+
+  .process__update {
+    margin-left: 250px;
+
+    & p {
+      margin-left: 40px;
+    }
+  }
+
+  .process__experience, .process__request, .process__rank {
+    margin-left: 50px;
+  }
+
+  .process__experience p, .process__request p, .process__rank p {
+    margin-left: 15px;
+  }
+  
+  hr {
+    width: 100px;
+  }
+
+  .article__inner {
+    text-align: center;
+  }
+
+  .article__content {
+    margin-top: 20px;
+    margin-right: 150px;
+  }
+
+  .article__items, .footer__inner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .article__item:not(:last-child) {
+    margin-bottom: 50px;
+  }
+
+  .offer__button {
+    margin-top: 15px;
+  }
+
+  .footer__inner {
+    text-align: center;
+  }
+
+  .footer__items {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
 }

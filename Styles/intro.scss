@@ -1,4 +1,4 @@
-@import "varibles";
+@import "variables";
 
 .intro{
   position: relative;
@@ -30,7 +30,7 @@
       width: 60px;
       height: 1px;
       background-color: $color-green;
-      top: 25px
+      top: 25px;
     }
   
     &::before {
@@ -73,8 +73,8 @@
 
     color: white;
     border-radius: 25px;
-    background: $color-light-green;
-    border: 1px white solid
+    background: $gradient-light-green;
+    border: 1px white solid;
   }
 }
 

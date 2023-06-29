@@ -1,0 +1,16 @@
+@import "variables";
+
+.partner {
+  position: relative;
+  margin-top: 517px;
+  
+  height: 140px;
+  
+  background-color: rgba(246, 251, 249, 1);
+
+  &__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
